@@ -2,7 +2,6 @@
 using Domain.Entities;
 using Domain.Enums;
 using Domain.ValueObjects;
-using Duende.IdentityServer.Models;
 using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 
