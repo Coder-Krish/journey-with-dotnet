@@ -7,6 +7,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using NLog.Extensions.Logging;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,24 +21,28 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(config =>
 {
-    config.SwaggerDoc("v1",new OpenApiInfo()
+    config.SwaggerDoc("v1", new OpenApiInfo()
     {
         Title = "Employees App APIS",
         Version = "v1",
         Contact = new OpenApiContact()
         {
-            Name = "Krishna Bogati", 
+            Name = "Krishna Bogati",
             Email = "invincible.impervious@gmail.com",
-            Url =new Uri("https://www.instagram.com/invincible_system/")
+            Url = new Uri("https://www.instagram.com/invincible_system/")
         },
         Description = "This is just to test anything that comes up in my mind..."
     });
 });
 
-//builder.Services.AddNewtonsoftJson(options =>
-//{
-//    options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-//});
+builder.Services.AddLogging(options =>
+{
+    options.ClearProviders();
+    options.SetMinimumLevel(LogLevel.Trace);
+    options.AddNLog("nlog.config");
+});
+
+
 /*Start Adding Connection String here*/
 var connectionString = builder.Configuration.GetConnectionString("AppDb");
 builder.Services.AddDbContext<ApplicationDbContext>(x => x.UseSqlServer(connectionString));

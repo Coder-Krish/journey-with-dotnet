@@ -18,6 +18,7 @@ namespace WebUI.Controllers.UserAccounts
         [Route("Login")]
         public async Task<Employees> Login([FromBody] LoginModel login)
         {
+            throw new Exception("Hello Logger , this is exception thrown from AccountController");
             return await _mediator.Send(new AccountsCommand(login));
         }
     }

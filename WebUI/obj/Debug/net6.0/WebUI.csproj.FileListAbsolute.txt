@@ -92,3 +92,6 @@ D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\D
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.pdb
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.genruntimeconfig.cache
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\ref\WebUI.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\nlog.config
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\NLog.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\NLog.Extensions.Logging.dll

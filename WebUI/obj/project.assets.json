@@ -902,6 +902,29 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NLog/4.7.15": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/1.7.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "NLog": "4.7.11"
+        },
+        "compile": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -3791,6 +3814,65 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NLog/4.7.15": {
+      "sha512": "vXMmsK17hXnMsKd8BdCrJzvb8JMT0+cPgBGRfnqcXIb6y8b6RMIZexO4hMhQgifcTHgU7dbubvCR5A5wX6Ne+A==",
+      "type": "package",
+      "path": "nlog/4.7.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.7.15.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NLog.Extensions.Logging/1.7.4": {
+      "sha512": "/dMxI/lBPNhKe9uONCQaZ3JYSHJh9/yez4Uqc6yIo2hIGaoi8sbQg7WQqW5/1WAIquhrG/SeCEZUTGMiRSQAHw==",
+      "type": "package",
+      "path": "nlog.extensions.logging/1.7.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net451/NLog.Extensions.Logging.dll",
+        "lib/net451/NLog.Extensions.Logging.xml",
+        "lib/net461/NLog.Extensions.Logging.dll",
+        "lib/net461/NLog.Extensions.Logging.xml",
+        "lib/net5.0/NLog.Extensions.Logging.dll",
+        "lib/net5.0/NLog.Extensions.Logging.xml",
+        "lib/netcoreapp3.0/NLog.Extensions.Logging.dll",
+        "lib/netcoreapp3.0/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.3/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.3/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.5/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.5/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.0/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.0/NLog.Extensions.Logging.xml",
+        "nlog.extensions.logging.1.7.4.nupkg.sha512",
+        "nlog.extensions.logging.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -7624,6 +7706,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
+      "NLog >= 4.7.15",
+      "NLog.Extensions.Logging >= 1.7.4",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.Text.Json >= 6.0.2"
     ]
@@ -7705,6 +7789,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.3, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[4.7.15, )"
+          },
+          "NLog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[1.7.4, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
