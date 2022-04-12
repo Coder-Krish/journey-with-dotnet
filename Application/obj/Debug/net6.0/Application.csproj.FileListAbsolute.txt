@@ -1,0 +1,17 @@
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Application.deps.json
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Application.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Application.pdb
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Domain.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Infrastructure.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Infrastructure.pdb
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\bin\Debug\net6.0\Domain.pdb
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\refint\Application.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\Application.pdb
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\Application\obj\Debug\net6.0\ref\Application.dll
