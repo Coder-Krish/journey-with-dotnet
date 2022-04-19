@@ -9,7 +9,7 @@ This project is all about learning various topics about Real time Application.
 * Identity Server
 * JWT Authentication
 * Role Based Authentication and Authorization
-* SignalR for Real Time Feature with View with Angular
+* SignalR for Real Time Feature with View(Angular)
 * And Many more...
 
 ### To Run using .NET CLI
