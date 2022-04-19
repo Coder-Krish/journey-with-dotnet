@@ -3,6 +3,7 @@ using Application.DTOs;
 using Application.Queries;
 using Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Controllers
@@ -21,8 +22,10 @@ namespace WebUI.Controllers
         /// List out all the employees
         /// </summary>
         /// <returns></returns>
+        /// 
         [HttpGet]
         [Route("GetEmployees")]
+        [Authorize]
         public async Task<List<Employees>> GetPersons()
         {
             return await _mediator.Send(new GetEmployeesQuery());
@@ -34,7 +37,8 @@ namespace WebUI.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("GetEmployeesById{id}")]
+        [Route("GetEmployeesById/{id}")]
+        [Authorize]
         public async Task<Employees> GetEmployeesById(Guid id)
         {
             return await _mediator.Send(new GetEmployeesByIdQuery(id));

@@ -64,7 +64,8 @@ namespace Application.CommandHandlers
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var token = new JwtSecurityToken(issuer: _configuration["Tokens:JwtIssuer"],
+            var token = new JwtSecurityToken(
+                                             issuer: _configuration["Tokens:JwtIssuer"],
                                              audience: _configuration["Tokens:JwtAudience"],
                                              claims: userClaims,
                                              expires: DateTime.UtcNow.AddMinutes(Convert.ToDouble(_configuration["Tokens:JwtValidMinutes"])),

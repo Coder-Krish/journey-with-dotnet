@@ -426,3 +426,1121 @@ WHERE [a].[UserId] = @__user_Id_0|
 SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
 FROM [Employees] AS [e]
 WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:04:04.3748|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:04:04.8381|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:04:04.8697|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:04:04.8697|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:04:04.8798|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:04:04.8963|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:04:04.8963|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:04:05.1420|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:04:05.3037|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:04:05.3037|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:04:05.3037|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:04:35.8370|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:04:36.0375|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (51ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:04:36.2483|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 14:04:36.2731|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 14:04:36.4448|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (7ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:07:21.5577|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:07:21.9187|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:07:21.9450|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:07:21.9450|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:07:21.9450|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:07:21.9663|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:07:21.9775|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:07:22.2192|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:07:22.4621|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:07:22.4621|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:07:22.4621|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:07:55.8356|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:07:56.1189|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (54ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([EmployeeId], [Address], [Email], [FullName])
+VALUES (@p0, @p1, @p2, @p3);|
+2022-04-19 14:07:56.2182|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]|
+2022-04-19 14:07:56.3389|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:07:56.4522|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Guid), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256), @p18='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [EmployeesId], [Fullname], [IsActive], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName], [UserType])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);|
+2022-04-19 14:07:56.4789|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0|
+2022-04-19 14:07:56.5068|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE ([a].[UserId] = @__p_0) AND ([a].[RoleId] = @__p_1)|
+2022-04-19 14:07:56.5068|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0|
+2022-04-19 14:07:56.5442|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:07:56.5695|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);|
+2022-04-19 14:07:56.5695|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (7ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256), @p17='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [EmployeesId] = @p4, [Fullname] = @p5, [IsActive] = @p6, [LockoutEnabled] = @p7, [LockoutEnd] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16, [UserType] = @p17
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+SELECT @@ROWCOUNT;|
+2022-04-19 14:08:10.4628|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:08:10.4754|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 14:08:56.0854|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:08:56.4778|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:08:56.5033|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:08:56.5090|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:08:56.5090|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:08:56.5302|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:08:56.5430|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:08:56.7586|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:08:56.9426|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:08:56.9426|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:08:56.9426|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:09:48.6132|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:09:49.1575|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:09:49.1891|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:09:49.1950|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:09:49.1950|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:09:49.2168|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:09:49.2315|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:09:49.4603|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:09:49.5908|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:09:49.5908|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:09:49.5908|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:10:44.2048|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:10:44.8277|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:10:44.8636|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:10:44.8709|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:10:44.8709|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:10:44.8922|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:10:44.9076|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:10:45.1589|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:10:45.2943|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:10:45.2943|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:10:45.2943|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:13:40.0968|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:13:40.5389|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:13:40.5684|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:13:40.5684|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:13:40.5684|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:13:40.5965|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:13:40.6166|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:13:40.8711|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:13:40.9870|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:13:40.9870|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:13:40.9891|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:28:29.2943|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:28:29.6479|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:28:29.6757|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:28:29.6757|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:28:29.6757|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:28:29.6987|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:28:29.7102|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:28:29.9119|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:28:30.0117|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:28:30.0117|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:28:30.0117|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:28:56.6961|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:28:56.8354|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (34ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:28:56.9981|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 14:28:57.0162|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 14:28:57.1278|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:33:33.5318|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:33:33.8361|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:33:33.8650|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:33:33.8650|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:33:33.8650|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:33:33.8877|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:33:33.8998|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:33:34.1235|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:33:34.2400|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:33:34.2400|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:33:34.2400|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:34:21.1415|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:34:21.5762|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:34:21.6026|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:34:21.6026|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:34:21.6026|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:34:21.6290|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:34:21.6473|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:34:21.8306|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:34:21.9369|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:34:21.9369|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:34:21.9369|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:34:27.1438|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:34:27.2298|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 14:37:30.7639|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:37:30.8291|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (21ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:37:30.9640|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 14:37:30.9928|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 14:37:31.1580|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:38:24.6036|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:38:24.8734|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:38:24.8975|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:38:24.8975|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:38:24.8975|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:38:24.9174|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:38:24.9304|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:38:25.1521|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:38:25.2581|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:38:25.2581|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:38:25.2581|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:39:12.5911|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:39:12.7574|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (34ms) [Parameters=[@__request_EmployeeId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__request_EmployeeId_0|
+2022-04-19 14:40:07.3257|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:40:07.7932|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:40:07.8213|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:40:07.8213|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:40:07.8213|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:40:07.8466|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:40:07.8625|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:40:08.0683|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:40:08.1678|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:40:08.1678|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:40:08.1678|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:40:28.5872|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:40:28.7041|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 14:40:43.6012|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:40:43.7116|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (33ms) [Parameters=[@__request_EmployeeId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__request_EmployeeId_0|
+2022-04-19 14:47:53.1111|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:47:53.5398|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:47:53.5649|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:47:53.5702|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:47:53.5702|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:47:53.5895|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:47:53.6030|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:47:53.8210|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:47:53.9378|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:47:53.9378|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:47:53.9378|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:48:18.0978|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:48:18.2586|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (39ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:48:18.5050|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 14:48:18.5366|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 14:48:18.6784|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:49:19.5869|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:49:19.9922|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:49:20.0145|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:49:20.0202|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:49:20.0202|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:49:20.0362|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:49:20.0362|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:49:20.2406|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:49:20.3293|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:49:20.3293|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:49:20.3293|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:49:52.0680|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:49:52.2350|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (54ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:49:52.4069|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 14:49:52.4259|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 14:49:52.5305|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:51:19.0949|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:51:19.1091|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 14:51:19.1200|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 14:51:19.1200|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 14:51:19.1200|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 14:55:25.5102|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:55:26.2221|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:55:26.2499|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:55:26.2557|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:55:26.2557|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:55:26.2749|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:55:26.2899|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:55:26.4795|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:55:26.8625|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:55:26.8625|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:55:26.8636|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:55:45.2718|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:55:45.6762|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:55:45.7037|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:55:45.7100|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:55:45.7100|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:55:45.7288|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:55:45.7414|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:55:45.9944|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:55:46.2824|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:55:46.2917|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:55:46.2917|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:56:52.8790|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:56:53.1127|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:56:53.1369|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:56:53.1369|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:56:53.1458|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:56:53.1603|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:56:53.1603|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:56:53.3622|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:56:53.4523|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:56:53.4523|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:56:53.4523|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 14:57:15.6161|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 14:57:16.0281|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:57:16.0518|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:57:16.0518|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 14:57:16.0518|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 14:57:16.0760|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 14:57:16.0913|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 14:57:16.3219|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 14:57:16.5878|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 14:57:16.5878|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 14:57:16.5878|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:03:37.1691|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:03:37.6008|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:03:37.6244|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:03:37.6299|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:03:37.6299|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:03:37.6492|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:03:37.6692|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:03:37.8630|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:03:37.9749|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:03:37.9749|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:03:37.9749|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:03:57.7067|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:03:57.8523|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (40ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 15:03:58.0236|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 15:03:58.0383|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 15:03:58.1394|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 15:05:04.4759|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:05:05.1517|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:05:05.1761|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:05:05.1761|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:05:05.1761|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:05:05.1993|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:05:05.2137|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:05:05.4213|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:05:05.5221|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:05:05.5221|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:05:05.5221|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:16:38.9033|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:16:39.1671|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:16:39.1886|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:16:39.1942|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:16:39.1942|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:16:39.2106|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:16:39.2238|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:16:39.4769|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:16:39.5937|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:16:39.5937|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:16:39.5937|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:16:54.8299|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:16:54.9858|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (39ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 15:16:55.1553|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 15:16:55.1776|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 15:16:55.3390|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 15:18:35.8659|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:18:36.1843|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:18:36.2377|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:18:36.2441|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:18:36.2441|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:18:36.2628|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:18:36.2748|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:18:36.4690|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:18:36.5636|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:18:36.5636|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:18:36.5636|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:37:19.5645|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:37:19.9834|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:37:20.0122|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:37:20.0122|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:37:20.0210|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:37:20.0354|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:37:20.0354|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:37:20.2683|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:37:20.3676|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:37:20.3676|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:37:20.3676|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:37:37.5654|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:37:37.7614|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (49ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 15:37:37.9849|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 15:37:38.0023|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 15:37:38.1629|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 15:41:03.9161|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:41:04.3599|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:41:04.4266|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:41:04.4266|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:41:04.4266|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:41:04.4497|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:41:04.4639|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:41:04.6734|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:41:04.7824|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:41:04.7824|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:41:04.7824|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:43:55.0621|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:43:55.3078|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (64ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 15:43:55.5463|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 15:43:55.5726|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 15:43:55.7331|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 15:44:07.7506|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:44:07.7618|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:44:54.7372|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:44:54.7418|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:45:38.3063|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:45:38.9837|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:45:39.0106|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:45:39.0106|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:45:39.0106|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:45:39.0348|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:45:39.0515|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:45:39.2521|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:45:39.3790|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:45:39.3800|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:45:39.3800|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:45:43.5713|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:45:43.6546|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:46:28.1431|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:46:28.1499|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:47:28.6785|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:47:28.6785|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:47:29.6097|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:47:29.6147|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:47:29.9041|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:47:29.9041|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:47:33.1651|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:47:33.2580|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (21ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 15:47:33.4035|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 15:47:33.4246|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 15:47:33.4485|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 15:47:43.3860|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:47:43.3860|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:50:40.2728|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:50:40.7151|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:50:40.7453|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:50:40.7453|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:50:40.7543|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:50:40.7710|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:50:40.7710|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:50:40.9785|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:50:41.0802|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:50:41.0802|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:50:41.0802|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:51:18.1273|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:51:18.2190|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:51:21.8410|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:51:21.9002|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (20ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 15:51:21.9916|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 15:51:22.0068|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 15:51:22.0307|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 15:51:29.7213|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:51:29.7266|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 15:52:30.5824|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:52:30.5824|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__request_EmployeeId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__request_EmployeeId_0|
+2022-04-19 15:52:50.3505|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:52:50.3505|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__request_EmployeeId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__request_EmployeeId_0|
+2022-04-19 15:53:20.6588|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:53:20.8990|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:53:20.9251|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:53:20.9301|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 15:53:20.9301|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 15:53:20.9449|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 15:53:20.9449|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 15:53:21.1438|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 15:53:21.2352|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 15:53:21.2352|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 15:53:21.2352|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 15:53:41.0861|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 15:53:41.2100|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (31ms) [Parameters=[@__request_EmployeeId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__request_EmployeeId_0|
+2022-04-19 16:01:29.3781|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:01:29.6360|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 16:01:29.6690|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 16:01:29.6791|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-19 16:01:29.6791|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-19 16:01:29.6981|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-19 16:01:29.7108|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-19 16:01:29.9117|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-19 16:01:30.0094|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-19 16:01:30.0094|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-19 16:01:30.0094|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-19 16:01:52.5407|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:01:52.7052|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (40ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:01:52.9222|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 16:01:52.9395|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 16:01:53.0733|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
+2022-04-19 16:02:12.3045|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:02:12.3045|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 16:05:24.6133|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:05:24.7367|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([EmployeeId], [Address], [Email], [FullName])
+VALUES (@p0, @p1, @p2, @p3);|
+2022-04-19 16:05:24.7702|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]|
+2022-04-19 16:05:24.8032|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:05:24.8032|WARN|Microsoft.AspNetCore.Identity.UserManager`1+<ValidateUserAsync>d__171.MoveNext|User validation failed: DuplicateUserName.|
+2022-04-19 16:05:24.8220|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0|
+2022-04-19 16:05:24.8453|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE ([a].[UserId] = @__p_0) AND ([a].[RoleId] = @__p_1)|
+2022-04-19 16:05:24.8520|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0|
+2022-04-19 16:05:24.8820|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:05:24.8820|WARN|Microsoft.AspNetCore.Identity.UserManager`1+<ValidateUserAsync>d__171.MoveNext|User validation failed: DuplicateUserName.|
+2022-04-19 16:05:47.9520|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:05:47.9520|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:05:47.9602|WARN|Microsoft.AspNetCore.Identity.UserManager`1.CheckPasswordAsync|Invalid password for user.|
+2022-04-19 16:05:47.9799|WARN|Microsoft.AspNetCore.Identity.SignInManager`1.CheckPasswordSignInAsync|User failed to provide the correct password.|
+2022-04-19 16:06:13.4820|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:06:13.4904|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:06:13.4904|WARN|Microsoft.AspNetCore.Identity.UserManager`1.CheckPasswordAsync|Invalid password for user.|
+2022-04-19 16:06:13.4904|WARN|Microsoft.AspNetCore.Identity.SignInManager`1.CheckPasswordSignInAsync|User failed to provide the correct password.|
+2022-04-19 16:06:24.5787|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:06:24.5822|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:06:24.5822|WARN|Microsoft.AspNetCore.Identity.UserManager`1.CheckPasswordAsync|Invalid password for user.|
+2022-04-19 16:06:24.5822|WARN|Microsoft.AspNetCore.Identity.SignInManager`1.CheckPasswordSignInAsync|User failed to provide the correct password.|
+2022-04-19 16:06:30.5506|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:06:30.5550|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]|
+2022-04-19 16:07:42.7018|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:07:42.7099|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([EmployeeId], [Address], [Email], [FullName])
+VALUES (@p0, @p1, @p2, @p3);|
+2022-04-19 16:07:42.7377|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]|
+2022-04-19 16:07:42.7439|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:07:42.7794|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Guid), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256), @p18='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [EmployeesId], [Fullname], [IsActive], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName], [UserType])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);|
+2022-04-19 16:07:42.7974|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (4ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0|
+2022-04-19 16:07:42.8040|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE ([a].[UserId] = @__p_0) AND ([a].[RoleId] = @__p_1)|
+2022-04-19 16:07:42.8040|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName], [a].[Type]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0|
+2022-04-19 16:07:42.8040|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:07:42.8329|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);|
+2022-04-19 16:07:42.8329|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@p18='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256), @p17='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [EmployeesId] = @p4, [Fullname] = @p5, [IsActive] = @p6, [LockoutEnabled] = @p7, [LockoutEnd] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16, [UserType] = @p17
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+SELECT @@ROWCOUNT;|
+2022-04-19 16:07:53.6632|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-19 16:07:53.6632|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeesId], [a].[Fullname], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0|
+2022-04-19 16:07:53.6766|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0|
+2022-04-19 16:07:53.7097|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (31ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0|
+2022-04-19 16:07:53.7097|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[@__identityUser_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Address], [e].[Email], [e].[FullName]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__identityUser_Email_0|
