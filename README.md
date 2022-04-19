@@ -11,3 +11,14 @@ This project is all about learning various topics about Real time Application.
 * Role Based Authentication and Authorization
 * SignalR for Real Time Feature
 * And Many more...
+
+### To Run using .NET CLI
+* navigate inside WEBUI
+`
+cd WebUI
+`
+```
+dotnet clean
+dotnet build
+dotnet run
+```
