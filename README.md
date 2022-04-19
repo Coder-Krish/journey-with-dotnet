@@ -10,11 +10,12 @@ This project is all about learning various topics about Real time Application.
 * JWT Authentication
 * Role Based Authentication and Authorization
 * SignalR for Real Time Feature with View(Angular)
+* Unit Testing
 * And Many more...
 
 ### To Run using .NET CLI
 * You need dotnet core 6 SDK and runtime installed 
-* after navigate inside WebUI
+* after that navigate inside WebUI
 `
 cd WebUI
 `
