@@ -1,8 +1,7 @@
 ﻿using Domain.Enums;
 using Microsoft.AspNetCore.Identity;
 
-namespace Infrastructure.Identity;
-
+namespace Application.Common.Identities;
 public class ApplicationRole:IdentityRole<string>
 {
     public RoleType Type { get; set; }

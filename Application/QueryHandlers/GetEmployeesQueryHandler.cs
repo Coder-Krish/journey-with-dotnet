@@ -1,6 +1,6 @@
-﻿using Application.Queries;
+﻿using Application.Common.interfaces;
+using Application.Queries;
 using Domain.Entities;
-using Infrastructure.DataAccess;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,9 +8,9 @@ namespace Application.QueryHandlers;
 
 public class GetEmployeesQueryHandler:IRequestHandler<GetEmployeesQuery, List<Employees>>
 {
-    private readonly ApplicationDbContext _applicationDbContext;
+    private readonly IApplicationDbContext _applicationDbContext;
 
-    public GetEmployeesQueryHandler(ApplicationDbContext applicationDbContext)
+    public GetEmployeesQueryHandler(IApplicationDbContext applicationDbContext)
     {
         _applicationDbContext = applicationDbContext;
     }

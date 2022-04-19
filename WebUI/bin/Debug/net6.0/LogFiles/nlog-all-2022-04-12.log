@@ -60,3 +60,30 @@ EXCEPTION OCCURRED:System.Exception: Hello Logger , this is exception thrown fro
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-12 17:48:26.6185|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`5.Log|Entity Framework Core 6.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.3' with options: None|
+2022-04-12 17:48:27.0614|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-12 17:48:27.0940|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-12 17:48:27.0940|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1|
+2022-04-12 17:48:27.0940|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');|
+2022-04-12 17:48:27.1194|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];|
+2022-04-12 17:48:27.1194|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log|No migrations were applied. The database is already up to date.|
+2022-04-12 17:48:27.3584|INFO|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END|
+2022-04-12 17:48:27.8148|INFO|Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync|Now listening on: https://localhost:7002|
+2022-04-12 17:48:27.8148|INFO|Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync|Now listening on: http://localhost:5002|
+2022-04-12 17:48:27.8148|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Application started. Press Ctrl+C to shut down.|
+2022-04-12 17:48:27.8239|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Hosting environment: Development|
+2022-04-12 17:48:27.8239|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted|Content root path: D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\|
+2022-04-12 17:49:35.1610|INFO|Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStopping|Application is shutting down...|

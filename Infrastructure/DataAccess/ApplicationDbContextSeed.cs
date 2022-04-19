@@ -1,8 +1,8 @@
-﻿using Domain.Constants;
+﻿using Application.Common.Identities;
+using Domain.Constants;
 using Domain.Entities;
 using Domain.Enums;
 using Domain.ValueObjects;
-using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 
 namespace Infrastructure.DataAccess;

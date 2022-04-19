@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Infrastructure.Identity;
-
+namespace Application.Common.Identities;
 public class ApplicationUserRole:IdentityUserRole<string>
 {
     public ApplicationUser User { get; set; }

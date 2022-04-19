@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
             }
           },
           "imports": [
@@ -168,6 +172,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj": {
+                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj"
+              },
               "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj"
               }
@@ -246,6 +253,9 @@
             "projectReferences": {
               "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj": {
                 "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj"
+              },
+              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

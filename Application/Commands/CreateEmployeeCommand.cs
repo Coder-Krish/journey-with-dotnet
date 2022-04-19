@@ -1,6 +1,7 @@
-﻿using Domain.Entities;
+﻿using Application.DTOs;
+using Domain.Entities;
 using MediatR;
 
 namespace Application.Commands;
 
-public record CreateEmployeeCommand(Employees _employees) : IRequest<Employees>;
+public record CreateEmployeeCommand(EmployeeDTO employeeDTO) : IRequest<Employees>;

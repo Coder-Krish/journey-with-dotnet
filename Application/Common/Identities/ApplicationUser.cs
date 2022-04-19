@@ -2,7 +2,7 @@
 using Domain.Enums;
 using Microsoft.AspNetCore.Identity;
 
-namespace Infrastructure.Identity;
+namespace Application.Common.Identities;
 
 public class ApplicationUser:IdentityUser
 {

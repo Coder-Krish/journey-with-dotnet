@@ -960,6 +960,21 @@
           }
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
+          "Microsoft.EntityFrameworkCore": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2786,6 +2801,11 @@
         "version.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -2794,6 +2814,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Application >= 1.0.0",
       "Domain >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.AspNetCore.ApiAuthorization.IdentityServer >= 6.0.3",
@@ -2832,6 +2853,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj": {
+              "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj"
+            },
             "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj": {
               "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj"
             }

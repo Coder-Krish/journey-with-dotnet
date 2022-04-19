@@ -1,3 +1,11 @@
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.csproj.AssemblyReference.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.AssemblyInfoInputs.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.AssemblyInfo.cs
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.csproj.CoreCompileInputs.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.MvcApplicationPartsAssemblyInfo.cs
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\nlog.config
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\appsettings.Development.json
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\appsettings.json
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\WebUI.exe
@@ -47,6 +55,8 @@ D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\D
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\NLog.dll
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -74,15 +84,8 @@ D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\D
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Domain.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Infrastructure.dll
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Application.pdb
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Domain.pdb
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Infrastructure.pdb
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.csproj.AssemblyReference.cache
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.GeneratedMSBuildEditorConfig.editorconfig
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.AssemblyInfoInputs.cache
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.AssemblyInfo.cs
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.csproj.CoreCompileInputs.cache
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.MvcApplicationPartsAssemblyInfo.cs
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\Domain.pdb
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\staticwebassets.build.json
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\staticwebassets.development.json
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\scopedcss\bundle\WebUI.styles.css
@@ -92,6 +95,3 @@ D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\D
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.pdb
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\WebUI.genruntimeconfig.cache
 D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\obj\Debug\net6.0\ref\WebUI.dll
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\nlog.config
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\NLog.dll
-D:\Learning\Projects\Learn SignalR\SignalRWithUsers\SignalRWithUsers\WebUI\bin\Debug\net6.0\NLog.Extensions.Logging.dll

@@ -1,4 +1,5 @@
 ﻿using Application.Commands;
+using Application.DTOs;
 using Application.Queries;
 using Domain.Entities;
 using MediatR;
@@ -46,9 +47,9 @@ namespace WebUI.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("AddEmployees")]
-        public async Task<Employees> AddEmployees([FromBody] Employees employees)
+        public async Task<Employees> AddEmployees([FromBody] EmployeeDTO employeeDTO)
         {
-            return await _mediator.Send(new CreateEmployeeCommand(employees));
+            return await _mediator.Send(new CreateEmployeeCommand(employeeDTO));
         }
     }
 }

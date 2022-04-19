@@ -1,7 +1,7 @@
 ﻿using Application.Commands;
+using Application.Common.Identities;
+using Application.Common.interfaces;
 using Domain.Entities;
-using Infrastructure.DataAccess;
-using Infrastructure.Identity;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -14,12 +14,12 @@ namespace Application.CommandHandlers
 {
     public class AccountsCommandHandler : IRequestHandler<AccountsCommand, Employees>
     {
-        private readonly ApplicationDbContext _applicationDbContext;
+        private readonly IApplicationDbContext _applicationDbContext;
         private readonly IConfiguration _configuration;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public AccountsCommandHandler(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ApplicationDbContext applicationDbContext, IConfiguration configuration)
+        public AccountsCommandHandler(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IApplicationDbContext applicationDbContext, IConfiguration configuration)
         {
             _applicationDbContext = applicationDbContext;
             _configuration = configuration;

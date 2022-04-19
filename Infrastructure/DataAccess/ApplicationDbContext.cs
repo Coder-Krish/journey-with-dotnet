@@ -1,10 +1,10 @@
-﻿using System.Reflection;
+﻿using Application.Common.Identities;
+using Application.Common.interfaces;
 using Domain.Entities;
-using Infrastructure.Common;
-using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace Infrastructure.DataAccess;
 
@@ -49,6 +49,15 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Applicati
                        .WithMany(r => r.User)
                        .UsingEntity<ApplicationUserRole>(ur => ur.HasOne(x => x.Role).WithMany(u => u.UserRoles),
                                                          ur => ur.HasOne(x => x.User).WithMany(r => r.UserRoles));
+
+
+       async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+        {
+            var result = await base.SaveChangesAsync(cancellationToken);
+
+            return result;
+        }
+
 
 
     }

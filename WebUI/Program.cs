@@ -1,6 +1,6 @@
-using Infrastructure.Common;
+using Application.Common.Identities;
+using Application.Common.interfaces;
 using Infrastructure.DataAccess;
-using Infrastructure.Identity;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
