@@ -13,3 +13,9 @@
     text-decoration: none;
     margin: 10px;
 }
+.navbar ul li a:hover{
+    padding: 8px;
+    background-color: dodgerblue;
+    font-size: 23px;
+    border-radius: 5px;
+}
