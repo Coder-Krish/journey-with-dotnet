@@ -1,0 +1,15 @@
+.navbar{
+    background: rgb(69, 139, 231);
+    padding: 10px;
+
+}
+.navbar ul li {
+    list-style: none;
+    display: inline;
+}
+.navbar ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
