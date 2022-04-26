@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using NLog.Extensions.Logging;
 using System.Text;
+using WebUI.RealTime.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,6 +64,17 @@ builder.Services.AddSwaggerGen(config =>
         }
     });
 });
+
+builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", config =>
+{
+    config.AllowAnyOrigin()
+          .AllowAnyHeader()
+          .AllowAnyMethod()
+          .SetIsOriginAllowed(origin => true);
+
+}));
+
+builder.Services.AddSignalR();
 
 builder.Services.AddLogging(options =>
 {
@@ -183,5 +195,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<NotificationHub>("/notify");
+
 
 app.Run();

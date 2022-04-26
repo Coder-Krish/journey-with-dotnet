@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Application.CommandHandlers;
 
-public class CreateEmployeeCommandHandler:IRequestHandler<CreateEmployeeCommand, Employees>
+public class CreateEmployeeCommandHandler:IRequestHandler<CreateEmployeeCommand, string>
 {
     private readonly IApplicationDbContext _applicationDbContext;
     private readonly UserManager<ApplicationUser> _userManager;
@@ -21,7 +21,7 @@ public class CreateEmployeeCommandHandler:IRequestHandler<CreateEmployeeCommand,
         _userManager = userManager;
         _roleManager = roleManager;
     }
-    public async Task<Employees> Handle(CreateEmployeeCommand request, CancellationToken cancellationToken)
+    public async Task<string> Handle(CreateEmployeeCommand request, CancellationToken cancellationToken)
     {
         var employees = request.employeeDTO;
         Employees employee = new Employees()
@@ -39,6 +39,6 @@ public class CreateEmployeeCommandHandler:IRequestHandler<CreateEmployeeCommand,
         var normalUser = new ApplicationUser { Id = Guid.NewGuid().ToString(), UserName = employees.FullName.Substring(0, employee.FullName.IndexOf(" ", StringComparison.Ordinal)), EmployeesId = employee.EmployeeId, Fullname = employee.FullName, Email = employee.Email, UserType = UserType.NormalUser, IsActive = true };
         await _userManager.CreateAsync(normalUser, employees.Password);
         await _userManager.AddToRolesAsync(normalUser, new[] { normalUserRole?.Name });
-        return employee;
+        return "User Added Successfully.";
     }
 }
