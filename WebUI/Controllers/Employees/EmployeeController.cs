@@ -1,6 +1,7 @@
 ﻿using Application.Commands;
 using Application.DTOs;
 using Application.Queries;
+using Domain.Constants;
 using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -25,7 +26,7 @@ namespace WebUI.Controllers
         /// 
         [HttpGet]
         [Route("GetEmployees")]
-        [Authorize]
+        [Authorize(Policy = Policies.AdminPolicy)]
         public async Task<List<Employees>> GetPersons()
         {
             return await _mediator.Send(new GetEmployeesQuery());
@@ -38,7 +39,7 @@ namespace WebUI.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("GetEmployeesById/{id}")]
-        [Authorize]
+        [Authorize(Policy = Policies.PublicPolicy)]
         public async Task<Employees> GetEmployeesById(Guid id)
         {
             return await _mediator.Send(new GetEmployeesByIdQuery(id));

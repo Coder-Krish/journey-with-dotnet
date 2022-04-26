@@ -1,5 +1,6 @@
 using Application.Common.Identities;
 using Application.Common.interfaces;
+using Domain.Constants;
 using Infrastructure.DataAccess;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -117,6 +118,26 @@ builder.Services.AddAuthentication(options =>
                ValidIssuer = builder.Configuration["Tokens:JwtIssuer"]
            };
        });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy(Policies.AdminPolicy, policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireRole(AppRoles.Admin);
+    });
+
+    options.AddPolicy(Policies.UserPolicy, policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireRole(AppRoles.NormalUser);
+    });
+    options.AddPolicy(Policies.PublicPolicy, policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireRole(AppRoles.Admin, AppRoles.NormalUser);
+    });
+});
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
