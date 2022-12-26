@@ -32,10 +32,9 @@ namespace Application.CommandHandlers
             var loginCredentials = request.login;
             var identityUser = await _userManager.FindByNameAsync(loginCredentials.UserName);
 
-            if (identityUser == null || identityUser.IsActive == false)
-                return null;
 
 
+            if(identityUser != null && identityUser.IsActive == true){
             var result = await _signInManager.CheckPasswordSignInAsync(identityUser, loginCredentials.Password, lockoutOnFailure: false);
             if (result.Succeeded)
             {
@@ -52,7 +51,7 @@ namespace Application.CommandHandlers
                 employeeDetail = empDetail != null ? empDetail : new Employees();
                 employeeDetail.Token = tokenResult.token;
             }
-
+            }
 
             return employeeDetail;
         }
