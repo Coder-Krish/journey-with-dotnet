@@ -48,8 +48,8 @@ namespace Application.CommandHandlers
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     expiration = token.ValidTo
                 };
-                employeeDetail = _applicationDbContext.Employees.FirstOrDefault(a => a.Email == identityUser.Email);
-
+                var empDetail = _applicationDbContext.Employees.FirstOrDefault(a => a.Email == identityUser.Email);
+                employeeDetail = empDetail != null ? empDetail : new Employees();
                 employeeDetail.Token = tokenResult.token;
             }
 
