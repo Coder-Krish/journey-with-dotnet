@@ -34,7 +34,7 @@ namespace Application.CommandHandlers
 
 
 
-            if(identityUser != null && identityUser.IsActive == true){
+            if(IsValidUser()){
             var result = await _signInManager.CheckPasswordSignInAsync(identityUser, loginCredentials.Password, lockoutOnFailure: false);
             if (result.Succeeded)
             {
@@ -55,7 +55,14 @@ namespace Application.CommandHandlers
 
             return employeeDetail;
         }
-
+        
+        private bool IsValidUser(UserManager identityUser){
+            if(identityUser != null){
+                return identityUser.IsActive;
+            }else{
+                return false;
+            }
+        }
 
         private JwtSecurityToken GenerateJwtToken(List<Claim> userClaims)
         {
