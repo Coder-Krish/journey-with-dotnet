@@ -38,9 +38,5 @@ public class EmployeeTests
         Assert.Pass();
     }
 
-    [TestCase(2)]
-    public void Test(int id)
-    {
-        Console.WriteLine("End of Test");
-    }
+
 }
