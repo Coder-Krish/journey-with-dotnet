@@ -7,7 +7,7 @@ trigger:
 - journey_with_signalR_v1.0.0
 
 pool:
-  vmImage: 'windows-latest'
+  name: KrishnaAgentPool
 
 variables:
   solution: '**/*.sln'
@@ -32,3 +32,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: '_Code_drop'
+    publishLocation: 'Container'
