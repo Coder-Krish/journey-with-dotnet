@@ -23,6 +23,8 @@
         <PackageReference Include="NLog.Extensions.Logging" Version="1.7.4" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
         <PackageReference Include="System.Text.Json" Version="6.0.2" />
+		<PackageReference Include="Duende.IdentityServer" Version="5.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.3" />
     </ItemGroup>
 
     <ItemGroup>
