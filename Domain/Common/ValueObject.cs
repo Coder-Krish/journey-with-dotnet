@@ -9,8 +9,6 @@
             {
                 return false;
             }
-
-            //return left?.Equals(right) != false;
             return left == right ? false : true;
         }
 
