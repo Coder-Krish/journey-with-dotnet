@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Learning\\MyProjects\\journey-with-signalR\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj": {
+    "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj",
+        "projectPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\obj\\",
+        "outputPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj"
+              "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj"
               }
             }
           }
@@ -63,7 +62,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,26 +72,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj": {
+    "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\obj\\",
+        "outputPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -131,7 +130,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -140,26 +140,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Learning\\MyProjects\\journey-with-signalR\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Learning\\MyProjects\\journey-with-signalR\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -172,11 +171,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj": {
-                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj"
+              "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\Application.csproj": {
+                "projectPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\Application.csproj"
               },
-              "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Domain\\Domain.csproj"
+              "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Domain\\Domain.csproj"
               }
             }
           }
@@ -210,7 +209,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -219,7 +219,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

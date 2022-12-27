@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FVQEEnM1SssZX8/OcgEwYfxgSuiB6BE9R+zWCktLZqwNaJHsAYHL11dBSc1IJ3YZ14PNf6UMuYPCxDZcZDuiMA==",
+  "dgSpecHash": "MPGwpB5g81wtox3lJCgMaPNEMrT3z7bwP2Kw2pZlg+4G4eWstav3vsKj12cQor5KTOs4UXW2nTGuC0i8O9yO6g==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",

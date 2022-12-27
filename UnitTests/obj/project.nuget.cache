@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HAsOM6pkWohMlsp1RE2Y/LVO3LtgwqNgMvzJJZHd/egx1tnYZ5JUPgZL1jV5kBpksRj4k+/HU8trp3gCyZrYAg==",
+  "dgSpecHash": "hpwUDzTRZhfmjR9fy1zmj5aP1zhDQvt1Fq2SmMclwf+6zj/JEUpxLGuLQG4xk9zYQGr1qURynvTd3TfDO4r1eQ==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "D:\\Learning\\MyProjects\\journey-with-signalR\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

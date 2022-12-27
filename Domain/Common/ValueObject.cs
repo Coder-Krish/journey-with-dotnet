@@ -10,7 +10,8 @@
                 return false;
             }
 
-            return left?.Equals(right);
+            //return left?.Equals(right) != false;
+            return left == right ? false : true;
         }
 
         protected static bool NotEqualOperator(ValueObject left, ValueObject right)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jXFlaFvzHO9aGWH/wreP9yyM52PBiTBg2kzzvgrft4jZQ96YLnr0qIkFqIViMqwP7en5osvz3SDffRRxdM08aw==",
+  "dgSpecHash": "KrHMZNNRkiozyZHX90qt1o+b4iK7hHlhptAHn8JOt4N6ADelUDtqH0OShHvuRG/C68KDg7g01lCcNSD0Go5wNw==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\WebUI\\WebUI.csproj",
+  "projectFilePath": "D:\\Learning\\MyProjects\\journey-with-signalR\\WebUI\\WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",

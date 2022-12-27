@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QrWkGPr2CbmKkbJl+QZY1gv8+kf3YYBaa4mxqs0Aze1CzWED68q/lX1FpZo/hMOhDPZolM4+LSOfZnDph1ReVg==",
+  "dgSpecHash": "F7ui9Xic42sPI/cYPjNGRli2EKdctYcl8u2B1E5Bu3h3ffpr9k7UK7WEkCSPLMT50xFwMlcKzIWF/b8K+anznA==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\Projects\\Learn SignalR\\SignalRWithUsers\\SignalRWithUsers\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Learning\\MyProjects\\journey-with-signalR\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\duende.identityserver.storage\\5.2.0\\duende.identityserver.storage.5.2.0.nupkg.sha512",
