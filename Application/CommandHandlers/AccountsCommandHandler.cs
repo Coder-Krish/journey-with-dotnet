@@ -18,6 +18,7 @@ namespace Application.CommandHandlers
         private readonly IConfiguration _configuration;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly string key;
 
         public AccountsCommandHandler(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IApplicationDbContext applicationDbContext, IConfiguration configuration)
         {
