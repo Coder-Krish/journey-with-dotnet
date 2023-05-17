@@ -36,3 +36,4 @@ cd WebUI/Client
 npm install
 ng serve
 ```
+After this you should be good to go.
